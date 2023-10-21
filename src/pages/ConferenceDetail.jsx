@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Box, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-const BASEURL = "https://5da0-92-26-6-164.ngrok-free.app";
+const BASEURL = "https://8f04-92-26-6-164.ngrok-free.app";
 
 const ConferenceDetail = () => {
   const [conference, setConference] = useState(null);

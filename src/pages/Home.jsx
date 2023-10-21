@@ -10,7 +10,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   // const BASE_URL = process.env.REACT_APP_API_BASE_URL;
-  const BASEURL = "https://5da0-92-26-6-164.ngrok-free.app";
+  const BASEURL = "https://8f04-92-26-6-164.ngrok-free.app";
   console.log(BASEURL);
 
   useEffect(() => {
